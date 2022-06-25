@@ -1,0 +1,114 @@
+
+/* Css reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General rules */
+html {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    background: linear-gradient(#3535ec, #b62897);
+    background-attachment: fixed;
+    color: white;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  /* Container */
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 16px;
+  }
+  
+  /* Logo */
+  header img {
+    width: 56px;
+  }
+  
+  /* Textarea */
+  textarea {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    width: 100%;
+    height: 120px;
+    resize: none;
+    outline: none;
+    border: none;
+    border-radius: 16px;
+    font-size: 20px;
+    padding: 24px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Controls */
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+  }
+  
+  /* Button play */
+  button {
+    width: 64px;
+    height: 56px;
+    border-radius: 8px;
+    border: none;
+    background-color: #f81669;
+  }
+  
+  /* Button style when disabled */
+  button:disabled {
+    opacity: 0.6;
+    background-color: #dedede;
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+  }
+  
+  button:active {
+    transform: scale(0.8);
+  }
+  
+  button img {
+    vertical-align: middle;
+  }
+  
+  /* Voice control */
+  .pitch-controls {
+    width: 70%;
+  }
+  
+  /* Voice bar */
+  input {
+    width: 100%;
+    accent-color: white;
+  }
+  
+  label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+  
+  /* Ducks */
+  .animated-duck {
+    display: none;
+  }
+  
+  /* class animated duck inside class talking */
+  .talking .animated-duck {
+    display: block;
+  }
+  
+  /* class static duck inside class talking */
+  .talking .static-duck {
+    display: none;
+  }
