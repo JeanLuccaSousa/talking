@@ -1,2 +1,2 @@
 # Talking Duck
-# Secondo progetto Boolean Coding Week
+# Second project Boolean Coding Week
